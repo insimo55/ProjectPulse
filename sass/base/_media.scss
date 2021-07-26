@@ -1,0 +1,97 @@
+@media (max-width:767px){
+    .header{
+        &__logo{
+            width: 200px;
+        }
+        &__official{
+            font-size: 11px;
+            span{
+                font-size: 16px;
+            }
+        }
+        &__phone{
+            font-size: 16px;
+        }
+    }
+    .promo{
+        &__wrapper{
+            align-items: center;
+        }
+    }
+    .edge{
+        &__header{
+            font-size: 26px;
+        }
+        &__wrapper{
+            margin-top: 50px; 
+            flex-direction: column;  
+            align-items: center;
+        }
+        &__block{
+            margin-top: 18px;
+        }
+        &__descr{
+            margin-top: 15px;
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width:575px){
+    .header{
+        flex-direction: column;
+        &__logo{
+            width: 250px;
+            margin-bottom: 10px;
+        }
+        &__official{
+            font-size: 15px;
+            margin-bottom: 10px;
+            span{
+                font-size: 20px;
+            }
+        }
+        &__phone{
+            font-size: 22px;
+        }
+    }
+    .button{
+        margin-top: 5px;
+        width: 200px;
+        height: 38px;
+        font-size: 18px;
+        &_main{
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    }
+    .promo{
+        &__header{
+            text-align: center;
+            font-size: 39px;
+        }
+        &__subheader{
+            text-align: center;
+        }
+        &__icons{
+            width: 100%;
+            margin-top: 40px;
+            flex-direction: column;
+            text-align: center;
+        }
+        &__icon{
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+    }
+    .edge{
+        &__header{
+            font-size: 22px;
+        }
+        &__wrapper{
+            width: 100%;
+        }
+        &__block{
+            max-width: 80%;
+        }
+    }
+}
