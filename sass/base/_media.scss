@@ -1,3 +1,30 @@
+@media (max-width: 992px){
+    .title{
+        &_left{
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    .consultation{
+        &__descr{
+            text-align: center;
+            margin-top: 50px;
+        }
+    }
+    .feed-form{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 350px;
+    }
+    .carousel{
+        &__inner{
+            width: 550px;
+        }
+    }
+}
+
+
 @media (max-width:767px){
     .header{
         &__logo{
