@@ -117,3 +117,27 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.carousel__inner .slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel__inner .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.carousel__inner .slick-dots button{
+    font-size: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    border-radius: 100%;
+    border: none;
+    
+}
+.carousel__inner .slick-dots li.slick-active button{
+    background-color: #ff0000;
+    transition: 0.5s all;
+
+}

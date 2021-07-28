@@ -1,11 +1,12 @@
 $(document).ready(function(){
     $('.carousel__inner').slick({
-        speed: 1500,
+        speed: 500,
         // adaptiveHeight: true,
         prevArrow: '<button type="button" class="slick-prev"><img src="../icon/left-arrow.png"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="../icon/right-arrow.png"></button>',
         autoplay: true,
         autoplaySpeed: 2000,
+        waitForAnimate: false,
         responsive: [
             {
                 breakpoint: 992,
